@@ -4,6 +4,7 @@ import matplotlib as mpl
 
 
 # the test case
+# Make it
 class CatPlotTestCase(unittest.TestCase):
     def setUp(self):
         self.fig = medical_data_visualizer.draw_cat_plot()
